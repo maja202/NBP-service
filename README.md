@@ -15,6 +15,12 @@ Service created using NBP API, Spring Boot and Java, exposing following endpoint
     localhost:8080/api/exchange-rates/gbp
     ```
 
+    - For showing PLN to USD exchange rates for the last 5 business days.
+    
+    ```
+    localhost:8080/api/exchange-rates/usd
+    ```
+
     - For showing average gold price for the last 14 business days in PLN.
     ```
     localhost:8080/api/gold-price/average
